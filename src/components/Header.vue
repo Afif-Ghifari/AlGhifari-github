@@ -12,7 +12,7 @@
             <li><a>Projects</a></li>
             <li><a>Skills</a></li>
             <li><a>Contacts</a></li>
-        </ul> 
+        </ul>
     </div>
     
     <div class="navbar-lg">
@@ -58,7 +58,7 @@ const toggleNavbar = () => {
     @apply flex items-center w-full my-1 py-3 cursor-pointer hover:bg-white
 }
 .dropbar ul li a{
-    @apply text-base text-center mx-auto 
+    @apply text-base text-center
 }
 .navbar-backdrop{
     @apply bg-slate-900 w-screen h-screen fixed opacity-25 z-10 inline md:hidden
@@ -70,7 +70,7 @@ const toggleNavbar = () => {
     border-black mx-auto shadow-lg fixed
 }
 .navbar-lg ul{
-    @apply grid grid-cols-6 mx-auto md:w-9/12 lg:w-1/2
+    @apply grid grid-cols-6 lg:mx-0 mx-auto md:w-9/12 lg:w-1/2
 }
 .navbar-lg ul li{
     @apply flex items-center w-full cursor-pointer hover:bg-white
