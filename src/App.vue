@@ -4,7 +4,8 @@
   </header>
   <main>
     <HeroComponent />
-    <About />
+    <About id="about" />
+    <Experience id="experience" />
   </main>
 </template>
 
@@ -12,6 +13,7 @@
 import HeaderComponent from './components/Header.vue';
 import HeroComponent from './components/Hero.vue'
 import About from './components/About.vue';
+import Experience from './components/Experience.vue';
 </script>
 
 <style scoped>

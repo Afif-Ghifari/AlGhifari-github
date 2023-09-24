@@ -1,7 +1,8 @@
 <template>
     <section class="hero-backdrop">
         <div class="hero-text">
-            <h1>Muhammad Afif Al Ghifari</h1>
+            <h1 class="hidden sm:block">Muhammad Afif Al Ghifari</h1>
+            <h1 class="sm:hidden block">Muhammad Afif <br> Al Ghifari</h1>
             <h2>Front End Developer</h2>
             <button class="resume-button">Download Resume</button>
         </div>
@@ -10,7 +11,7 @@
 
 <style lang="postcss" scoped>
 .hero-backdrop{
-    @apply flex items-center w-screen h-screen bg-slate-600 text-white
+    @apply flex items-center w-screen h-screen bg-slate-700 text-white
 }
 
 .hero-text{

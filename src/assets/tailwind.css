@@ -4,6 +4,10 @@
 
 @tailwind utilities;
 
+body{
+    @apply bg-slate-100
+}
+
 h1{
     @apply text-5xl
 }

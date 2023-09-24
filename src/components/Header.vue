@@ -6,8 +6,8 @@
     <div class="dropbar" v-if="showNavbar">
         <ul>
             <div class="w-full mt-6"><div class="w-full text-right text-2xl"><button class="mr-[54px]" @click="toggleNavbar">X</button></div></div>
-            <li><a>About</a></li>
-            <li><a>Experience</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a>Education</a></li>
             <li><a>Projects</a></li>
             <li><a>Skills</a></li>
@@ -20,8 +20,8 @@
         <div class="w-1/12 hidden lg:inline">LOGO</div>
         
         <ul>
-            <li><a>About</a></li>
-            <li><a>Experience</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a>Education</a></li>
             <li><a>Projects</a></li>
             <li><a>Skills</a></li>
@@ -58,7 +58,7 @@ const toggleNavbar = () => {
     @apply flex items-center w-full my-1 py-3 cursor-pointer hover:bg-white
 }
 .dropbar ul li a{
-    @apply text-base text-center
+    @apply text-base text-center mx-auto
 }
 .navbar-backdrop{
     @apply bg-slate-900 w-screen h-screen fixed opacity-25 z-10 inline md:hidden
