@@ -11,7 +11,7 @@
             </div>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a>Education</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a>Projects</a></li>
             <li><a>Skills</a></li>
             <li><a>Contacts</a></li>
@@ -20,12 +20,10 @@
 
     <div class="navbar-lg">
 
-        <!-- <div class="w-1/12 hidden lg:inline">LOGO</div> -->
-
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a>Education</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a>Projects</a></li>
             <li><a>Skills</a></li>
             <li><a>Contacts</a></li>
@@ -48,7 +46,7 @@ const toggleNavbar = () => {
 
 <style lang="postcss" scoped>
 .navbar-btn-sm {
-    @apply fixed inline md:hidden top-11 right-8 h-14 w-14 bg-slate-200 hover:bg-slate-400 border shadow-md border-black z-20
+    @apply fixed inline md:hidden top-11 right-8 h-14 w-14 bg-slate-100 hover:bg-slate-400 border shadow-md border-black z-20
 }
 
 .dropdown {
@@ -77,7 +75,7 @@ const toggleNavbar = () => {
 
 
 .navbar-lg {
-    @apply hidden md:flex flex-row justify-between h-24 w-1/2 py-7 px-10 left-1/2 right-1/2 transform -translate-x-1/2 bg-slate-200  rounded-b-md shadow-lg fixed
+    @apply hidden md:flex flex-row justify-evenly h-24 w-5/6 lg:w-2/3 py-7 px-10 left-1/2 right-1/2 transform -translate-x-1/2 bg-slate-100 rounded-b-md shadow-lg fixed
 }
 
 .navbar-lg ul {

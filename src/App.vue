@@ -6,6 +6,7 @@
     <HeroComponent />
     <About id="about" />
     <Experience id="experience" />
+    <Education id="education" />
   </main>
 </template>
 
@@ -14,7 +15,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import HeaderComponent from './components/Header.vue';
 import HeroComponent from './components/Hero.vue'
 import About from './components/About.vue';
-import Experience from './components/Experience.vue';
+import Experience from './components/Experience.vue'
+import Education from './components/Education.vue';
 </script>
 
 <style scoped>

@@ -1,17 +1,18 @@
 <template>
-    <section class="experience-section">
+    <section class="education-section">
         <div class="mb-6 text-center">
-            <h1>Experiences</h1>
+            <h1>Education</h1>
             <br>
-            <hr class=" w-54 sm:w-72 border border-slate-700">
+            <hr class="border border-slate-700 w-54 sm:w-72">
         </div>
-        <div class="work-exp">
+
+        <div class="education-exp">
             <div class="work-timeline">
-                <h3 class="text-center mx-auto">July 2022 - December 2022</h3>
+                <h3 class="text-center mx-auto">July 2020 - March 2023</h3>
             </div>
             <div class="work-desc">
-                <h3 class="text-center my-2 font-semibold">PT. Lorem Ipsum Dolor</h3>
-                <h4 class="my-2">Intern Front End Developer</h4>
+                <h3 class="text-center my-2 font-semibold">Malang Telkom Vocational High School</h3>
+                <h4 class="my-2">Software Development</h4>
                 <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto saepe, officiis necessitatibus
                     aspernatur placeat.</p>
             </div>
@@ -20,9 +21,14 @@
 </template>
 
 <style lang="postcss" scoped>
-.experience-section{
-    @apply flex flex-col w-full h-fit px-0 md:px-24 py-16 bg-gray-300 content-center align-middle items-center text-slate-800 
+.education-section{
+    @apply flex flex-col w-full h-fit px-0 md:px-10 lg:px-20 py-16 bg-slate-200 content-center align-middle items-center text-slate-800
 }
+
+.education-exp{
+    @apply my-14 h-fit md:h-72 md:my-0 flex-col md:flex-row flex content-center align-middle items-center
+}
+
 .work-exp{
     @apply my-14 h-fit md:h-72 md:my-0 flex-col md:flex-row flex content-center align-middle items-center
 }
