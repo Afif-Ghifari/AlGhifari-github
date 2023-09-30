@@ -10,6 +10,7 @@
 </template>
 
 <script setup>
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import HeaderComponent from './components/Header.vue';
 import HeroComponent from './components/Hero.vue'
 import About from './components/About.vue';

@@ -11,7 +11,7 @@
 
 <style lang="postcss" scoped>
 .hero-backdrop{
-    @apply flex items-center w-screen h-screen bg-slate-700 text-white
+    @apply flex items-center w-full h-screen bg-slate-700 text-white
 }
 
 .hero-text{

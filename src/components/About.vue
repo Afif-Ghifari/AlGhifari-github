@@ -16,7 +16,7 @@
 
 <style lang="postcss" scoped>
     .about-section{
-        @apply flex flex-col md:flex-row w-screen h-fit px-2 md:px-24 py-16 bg-slate-200 content-center align-middle items-center text-slate-800
+        @apply flex flex-col md:flex-row w-full h-fit px-2 md:px-24 py-16 bg-slate-200 content-center align-middle items-center text-slate-800
     }
     .about-me{
         @apply w-2/3 md:w-1/3 h-fit my-2 pb-5 md:pb-0 flex content-center align-middle items-center text-center md:border-0 border-b-2 border-slate-700 

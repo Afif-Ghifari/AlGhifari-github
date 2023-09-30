@@ -1,15 +1,9 @@
 <template>
     <section class="experience-section">
-        <div class="work-exp">
-            <div class="work-timeline">
-                <h3 class="text-center mx-auto">July 2022 - December 2022</h3>
-            </div>
-            <div class="work-desc">
-                <h3 class="text-center my-2">PT. Lorem Ipsum Dolor</h3>
-                <h4 class="my-2">Intern Front End Developer</h4>
-                <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto saepe, officiis necessitatibus
-                    aspernatur placeat.</p>
-            </div>
+        <div class="mb-6">
+            <h1>Experiences</h1>
+            <br>
+            <hr class="border-2 border-slate-700">
         </div>
         <div class="work-exp">
             <div class="work-timeline">
@@ -22,6 +16,17 @@
                     aspernatur placeat.</p>
             </div>
         </div>
+        <!-- <div class="work-exp">
+            <div class="work-timeline">
+                <h3 class="text-center mx-auto">July 2022 - December 2022</h3>
+            </div>
+            <div class="work-desc">
+                <h3 class="text-center my-2">PT. Lorem Ipsum Dolor</h3>
+                <h4 class="my-2">Intern Front End Developer</h4>
+                <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto saepe, officiis necessitatibus
+                    aspernatur placeat.</p>
+            </div>
+        </div> -->
         <!-- <div>
             <div></div>
             <div></div>
@@ -31,7 +36,7 @@
 
 <style lang="postcss" scoped>
 .experience-section{
-    @apply flex flex-col w-screen h-fit px-0 md:px-24 py-16 bg-gray-300 content-center align-middle items-center text-slate-800 
+    @apply flex flex-col w-full h-fit px-0 md:px-24 py-16 bg-gray-300 content-center align-middle items-center text-slate-800 
 }
 .work-exp{
     @apply my-14 h-fit md:h-72 md:my-0 flex-col md:flex-row flex content-center align-middle items-center
