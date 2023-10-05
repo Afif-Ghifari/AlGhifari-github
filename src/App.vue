@@ -7,6 +7,7 @@
     <About id="about" />
     <Experience id="experience" />
     <Education id="education" />
+    <Projects id="projects" />
   </main>
 </template>
 
@@ -17,6 +18,7 @@ import HeroComponent from './components/Hero.vue'
 import About from './components/About.vue';
 import Experience from './components/Experience.vue'
 import Education from './components/Education.vue';
+import Projects from './components/Projects.vue';
 </script>
 
 <style scoped>
