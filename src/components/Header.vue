@@ -75,7 +75,8 @@ const toggleNavbar = () => {
 
 
 .navbar-lg {
-    @apply hidden md:flex flex-row justify-evenly h-24 w-5/6 lg:w-2/3 py-7 px-10 left-1/2 right-1/2 transform -translate-x-1/2 bg-slate-100 rounded-b-md shadow-lg fixed
+    @apply hidden md:flex flex-row justify-evenly h-24 w-5/6 lg:w-2/3 py-7 px-10 left-1/2 right-1/2 transform 
+    -translate-x-1/2 bg-slate-100 rounded-b-md shadow-lg fixed
 }
 
 .navbar-lg ul {
