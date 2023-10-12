@@ -13,7 +13,7 @@
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a>Skills</a></li>
+            <li><a href="#skill">Skills</a></li>
             <li><a>Contacts</a></li>
         </ul>
     </div>
@@ -25,7 +25,7 @@
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a>Skills</a></li>
+            <li><a href="#skill">Skills</a></li>
             <li><a>Contacts</a></li>
         </ul>
 

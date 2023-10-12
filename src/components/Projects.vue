@@ -15,7 +15,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nesciunt.</p>
                 </div>
                 <div class="card-btn">
-                    <a class="link-btn" href="">Visit Repository</a>
+                    <a class="link-btn" href="">View Project</a>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nesciunt.</p>
                 </div>
                 <div class="card-btn">
-                    <a class="link-btn" href="">Visit Repository</a>
+                    <a class="link-btn" href="">View Project</a>
                 </div>
             </div>
         </div>
