@@ -14,7 +14,7 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skill">Skills</a></li>
-            <li><a>Contacts</a></li>
+            <li><a href="#contact">Contacts</a></li>
         </ul>
     </div>
 
@@ -26,7 +26,7 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skill">Skills</a></li>
-            <li><a>Contacts</a></li>
+            <li><a href="#contact">Contacts</a></li>
         </ul>
 
     </div>

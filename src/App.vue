@@ -9,6 +9,7 @@
     <Education id="education" />
     <Projects id="projects" />
     <Skill id="skill"/>
+    <Contact id="contact"/>
   </main>
 </template>
 
@@ -21,6 +22,7 @@ import Experience from './components/Experience.vue'
 import Education from './components/Education.vue';
 import Projects from './components/Projects.vue';
 import Skill from './components/Skill.vue';
+import Contact from './components/Contact.vue';
 </script>
 
 <style scoped>
