@@ -23,7 +23,7 @@
     @apply flex flex-col w-5/6 sm:w-3/4 md:w-1/2 align-middle
 }
 .form-container .input-field{
-    @apply w-full px-4 py-2 my-2 border border-slate-700 bg-slate-100
+    @apply w-full px-4 py-2 my-2 border border-slate-500 bg-slate-100 outline-none focus:border-slate-700
 }
 
 .form-container .send-button{

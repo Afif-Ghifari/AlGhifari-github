@@ -10,6 +10,7 @@
     <Projects id="projects" />
     <Skill id="skill"/>
     <Contact id="contact"/>
+    <FooterVue />
   </main>
 </template>
 
@@ -23,6 +24,8 @@ import Education from './components/Education.vue';
 import Projects from './components/Projects.vue';
 import Skill from './components/Skill.vue';
 import Contact from './components/Contact.vue';
+import Footer from './components/Footer.vue';
+import FooterVue from './components/Footer.vue';
 </script>
 
 <style scoped>

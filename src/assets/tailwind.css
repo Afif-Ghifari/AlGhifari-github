@@ -18,7 +18,7 @@ h3{
     @apply text-xl md:text-2xl
 }
 h4{
-    @apply md:text-xl
+    @apply text-xl
 }
 p{
     @apply md:text-lg
