@@ -1,0 +1,29 @@
+{
+    "Skills": [
+        {
+            "img": "icons8-html-logo.svg",
+            "alt": "HTML 5 logo",
+            "name": "HTML 5"
+        },
+        {
+            "img": "icons8-css-logo.svg",
+            "alt": "CSS logo",
+            "name": "CSS"
+        },
+        {
+            "img": "icons8-javascript.svg",
+            "alt": "JavaScript logo",
+            "name": "JavaScript"
+        },
+        {
+            "img": "icons8-vue-js.svg",
+            "alt": "Vue JS logo",
+            "name": "Vue JS"
+        },
+        {
+            "img": "icons8-shopify.svg",
+            "alt": "Shopify logo",
+            "name": "Shopify"
+        }
+    ]
+}

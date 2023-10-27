@@ -6,30 +6,16 @@
             <hr class=" w-54 sm:w-72 border border-slate-700">
         </div>
         
-        <div class="project-card">
-            <div class="bg-img"></div>
+        <div class="project-card" v-for="project in Projects" :key="project.title">
+            <div class="bg-img" :style="{'background': 'url('+getImg(project.img)+') no-repeat center', 'background-size': 'cover'}"></div>
             <div class="card-body">
                 <div class="card-desc">
-                    <h3>Lorem, ipsum.</h3>
+                    <h3>{{ project.title }}</h3>
                     <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nesciunt.</p>
+                    <p>{{ project.desc }}</p>
                 </div>
                 <div class="card-btn">
-                    <a class="link-btn" href="">View Project</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <div class="bg-img"></div>
-            <div class="card-body">
-                <div class="card-desc">
-                    <h3>Lorem, ipsum.</h3>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nesciunt.</p>
-                </div>
-                <div class="card-btn">
-                    <a class="link-btn" href="">View Project</a>
+                    <a class="link-btn" :href="project.link">View Project</a>
                 </div>
             </div>
         </div>
@@ -37,12 +23,24 @@
 </template>
 
 <script>
-</script>
+import { Projects } from "../data/projects.json";
+export default {
+    data(){
+        return{
+            Projects
+        }
+    },
+    setup(){
+        const getImg = (path) =>{
+            return new URL(`../assets/img/${path}`, import.meta.url).href
+        }
 
+        return{getImg}
+    }
+}
+</script>
 <style>
-.bg-img {
-    background: url('../assets/img/project-vue-recipe.png') no-repeat center;
-    background-size: cover;
+.bg-img2 {
     display: block;
     height: 240px;
     width: 100%;
@@ -64,6 +62,9 @@
 
 .card-body {
     @apply py-5 px-4 sm:px-8 min-h-fit min-w-full md:min-w-min sm:w-96 md:w-2/3 flex flex-col justify-between
+}
+.bg-img{
+    @apply block h-60 md:w-1/3 w-full 
 }
 .card-body .card-desc{
     @apply my-2

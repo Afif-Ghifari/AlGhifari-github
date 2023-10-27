@@ -5,19 +5,30 @@
             <br>
             <hr class=" w-54 sm:w-72 border border-slate-700">
         </div>
-        <div class="work-exp">
+
+        <div class="work-exp" v-for="exp in Experiences" :key="exp">
             <div class="work-timeline">
-                <h3 class="text-center mx-auto">July 2022 - December 2022</h3>
+                <h3 class="text-center mx-auto">{{ exp.date }}</h3>
             </div>
             <div class="work-desc">
-                <h3 class="text-center my-2 font-semibold">PT. Lorem Ipsum Dolor</h3>
-                <h4 class="my-2">Intern Front End Developer</h4>
-                <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto saepe, officiis necessitatibus
-                    aspernatur placeat.</p>
+                <h3 class="text-center my-2 font-semibold">{{ exp.company }}</h3>
+                <h4 class="my-2">{{ exp.department }}</h4>
+                <p class="my-2">{{ exp.desc }}</p>
             </div>
         </div>
     </section>
 </template>
+
+<script>
+import { Experiences } from '../data/experiences.json'
+export default {
+    data(){
+        return{
+            Experiences
+        }
+    }
+}
+</script>
 
 <style lang="postcss" scoped>
 .experience-section{

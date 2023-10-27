@@ -1,0 +1,11 @@
+{
+    "Educations": [
+        {
+            "id"        : 1,
+            "date"      : "July 2020 - March 2023",
+            "school"    : "Malang Telkom Vocational High School",
+            "department": "Software Development",
+            "desc"      : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto saepe, officiis necessitatibus aspernatur placeat."
+        }
+    ]
+}

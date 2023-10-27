@@ -7,14 +7,33 @@
         </div>
 
         <div class="skill-row">
-            <div class="mx-4"><img src="../assets/img/skill-icons/icons8-html-logo.svg" class="skill-img" alt="HTML 5"><h4>HTML 5</h4></div>
-            <div class="mx-4"><img src="../assets/img/skill-icons/icons8-css-logo.svg" class="skill-img" alt="CSS"><h4>CSS</h4></div>
-            <div class="mx-4"><img src="../assets/img/skill-icons/icons8-javascript.svg" class="skill-img" alt="JavaScript"><h4>JavaScript</h4></div>
-            <div class="mx-4"><img src="../assets/img/skill-icons/icons8-vue-js.svg" class="skill-img" alt="Vue JS"><h4>Vue JS</h4></div>
-            <div class="mx-4"><img src="../assets/img/skill-icons/icons8-shopify.svg" class="skill-img" alt="Shopify"><h4>Shopify Liquid</h4></div>
+            <div class="mx-4" v-for="skill in Skills" :key="skill.name">
+                <img :src="getImg(skill.img)" class="skill-img" :alt="skill.alt"><h4>{{skill.name}}</h4>
+            </div>
+            
         </div>
     </section>
 </template>
+
+<script>
+import {Skills} from '../data/skills.json'
+export default {
+    data(){
+        return{
+            Skills  
+        }
+    },
+    setup(){
+        const getImg = (path) => {
+            return new URL(`../assets/img/skill-icons/${path}`, import.meta.url).href
+        }
+
+        return {getImg}
+    }
+}
+
+</script>
+
 
 <style lang="postcss" scoped>
 .skill-section {
@@ -22,7 +41,7 @@
 }
 
 .skill-row{
-    @apply grid grid-cols-2 md:grid-cols-3 justify-between w-1/2 h-fit text-center
+    @apply flex flex-row flex-[0_0_calc(20%-40px)] flex-wrap justify-center max-w-sm gap-8 h-fit text-center
 }
 .skill-row .skill-img{
     @apply mx-auto w-14 

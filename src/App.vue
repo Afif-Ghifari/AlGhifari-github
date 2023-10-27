@@ -2,7 +2,7 @@
   <header>
     <HeaderComponent />
   </header>
-//main content 
+  <!-- main content  -->
   <main>
     <HeroComponent />
     <About id="about" />

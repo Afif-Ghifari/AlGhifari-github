@@ -1,0 +1,11 @@
+{
+    "Experiences": [
+        {
+            "id"        : 1,
+            "date"      : "July 2022 - December 2022",
+            "company"   : "PT. Lorem Ipsum Dolor",
+            "department": "Intern Front End Developer",
+            "desc"      : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto saepe, officiis necessitatibus aspernatur placeat."
+        }
+    ]
+}
